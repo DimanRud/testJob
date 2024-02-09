@@ -1,0 +1,176 @@
+@font-face {
+  font-family: Steppe;
+  src: url("./fonts/Steppe.ttf");
+  }
+
+  @font-face {
+    font-family: SF Pro Text;
+    src: url("./fonts/SFProText-Bold.ttf");
+    src: url("./fonts/SFProText-Light.ttf");
+  }
+
+
+  html,
+  body {
+    max-width: 1920px;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: Steppe;
+    font-size: 16px;
+    line-height: 100%;
+    background-image: url('./img/Desktop - 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  h1,
+  h2,
+  p {
+    margin: 0;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: rgb(242, 242, 242);
+  }
+
+  .header__block {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 258px;
+  }
+
+  .header__items {
+    padding-top: 111px;
+  }
+
+  .header__name {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: rgb(242, 242, 242);
+    margin-bottom: 38px;
+  }
+
+  .header__color {
+    color: rgb(114, 213, 255);
+  }
+
+
+  .header__title {
+    color: rgb(114, 213, 255);
+    font-family: Steppe;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 16px;
+  }
+
+  .header__text {
+    color: rgb(242, 242, 242);
+    font-family: SF Pro Text;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 26px;
+  }
+
+  .btn {
+    color: rgb(255, 255, 255);
+    font-family: Steppe;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 30px 0px rgba(64, 159, 200, 0.3);
+    background: linear-gradient(0.00deg, rgb(31, 84, 191) -16.071%,rgb(65, 128, 255) 78.429%);
+    padding: 6px 10px 3px 10px;
+    text-transform: uppercase;
+  }
+
+  .header__logo {
+    padding-top: 96px;
+    margin-right: 117px;
+    width: 135px;
+    height: 138px;
+  }
+
+  .about {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    margin-top: 133px;
+  }
+
+  .about__cart {
+    position: relative;
+    max-width: 50%;
+    border-radius: 38px;
+    box-shadow: 4px 4px 20px 0px rgba(77, 77, 77, 0.3);
+    background: rgba(242, 242, 242, 0.8);
+    padding: 40px 40px;
+  }
+
+  .about__cart:first-child {
+    margin-bottom: 113px;
+  }
+
+  .cart:before {
+    content: "";
+    position: absolute;
+    width: 638px;
+    height: 884px;
+    background: url('./img/1639.png');
+    top: -174px;
+    right: 0;
+  }
+
+  .cart > .cart__title {
+    max-width: 60%;
+  }
+
+  .cart > .cart__text {
+    max-width: 62%;
+  }
+
+  .cart__title {
+    color: rgb(242, 53, 69);
+    font-family: Steppe;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 40px;
+  }
+
+  .cart__subtitle {
+    color: rgb(40, 40, 40);
+    font-family: SF Pro Text;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    margin-bottom: 40px;
+  }
+
+  .cart__text {
+    color: rgb(242, 53, 69);
+    font-family: SF Pro Text;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    margin-bottom: 40px;
+  }
+
+
+  .form {
+    margin-top: 50px;
+  }
+
+  .form__fake--img {
+    display: flex;
+  }
+
+  .form__fake--img > img {
+    margin: 0 auto;
+  }
